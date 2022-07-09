@@ -1,7 +1,14 @@
-This test is to check if user login page loads after clicking on Login page. I have added test for desktop and mobile viewport seperately.The base url (https://www.ubank.com.au/) is defined in the cypress.json file. And
-cclearommon selectors are defined in command.js file so that selectos can be resuded.
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/mansverma/cypress-automation/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/mansverma/cypress-automation/tree/master)
 
-http://recordit.co/vYzHIp3KEk
+This reposetory contains e2e browser tests and API tests using cypress
+
+#### e2e tests
+The purpose of these tests are to check if user login page loads after clicking on Login page. I have added test for desktop and mobile viewport seperately.The base url (https://www.ubank.com.au/) is defined in the cypress.json file. And common selectors are defined in command.js file so that selectos can be resuded.
+
+
+#### API tests
+These tests contains test to validate POST, PUT, GET and DELETE requests
+
 
 ### Installation
 
